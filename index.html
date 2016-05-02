@@ -1,0 +1,13 @@
+<html ng-app="myApp" ng-strict-di>
+<head>
+    <script src="build/scripts/app.min.js"></script>
+</head>
+<body>
+<div>
+    Hello
+    <div ng-controller="UserController as VM">
+        {{ VM.packageName }}
+    </div>
+</div>
+</body>
+</html>
